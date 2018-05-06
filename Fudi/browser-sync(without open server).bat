@@ -1,0 +1,1 @@
+powershell -noprofile -command "browser-sync start --server --files "*.html, *.css, *js" --no-notify"

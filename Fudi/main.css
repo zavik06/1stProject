@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+*{
+	font-family: 'Lato', sans-serif !important;
+}
+.main{
+	background-image: url("img/main_back.jpg");
+	min-height: 600px;
+	background-size: cover;
+
+}
+.header_menu{
+	position: absolute;
+	right:0;
+}
+.header_menu a{
+	color: #ffffff;
+	border-bottom: 2px solid transparent;
+}
+.header_menu a:hover{
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+.welcome_text{
+	margin-top: 8em;
+
+}
+.welcome_text h3{
+	color: #ffffff;
+	font-style: italic;
+	opacity: 0.7;
+	font-size: 1.5em;
+}
+.welcome_text h1{
+	color:#ffffff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 4em;
+}
+.welcome_text button{
+	padding: 0.5em 3em;
+
+}
+.welcome_text button.btn-outline-light{
+	color:#ffffff !important;
+	text-transform: uppercase;
+	border-color:#ffffff;
+}
+.welcome_text button.btn-outline-light:hover{
+	background-color: #ffffff;
+	color:#999 !important;
+}
+.welcome_text p{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size:12px;
+	margin-top: 0.5em;
+}
+.welcome_text p a{
+	color: #ffffff !important;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.features{
+}
+.feature {
+	background-color: #ffffff;
+	padding: 4em;
+	margin-top:-1em;
+	
+}
+.feature h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 2px solid #F57365;
+	display: inline-block;
+	margin:0.8em 0; 
+
+}
+.feature p{
+	color:#262626;
+}
+.app_header{
+	border-bottom: 2px solid #F57365;
+}
+.our_app{
+	background-color: #f7f7f7;
+}
+.phone img{
+	margin-left: 5em;
+	margin-top:2em;
+	width: 50%;
+	height: auto;
+}
+.app_header h3{
+	margin-right:10em;
+	text-transform: uppercase;
+	margin-top: 3em;
+}
+.app_text p{
+	margin-right: 5em;
+}
+.app_store img{
+	width: 30%;
+}
+.image_google_app_store img{
+	width: 60%;
+}
+.cuisines_head{
+	text-transform: uppercase;
+	background-color:#ffffff; 
+	margin-bottom:0;
+	padding: 2em;
+
+}
+.cuisines_head h2{
+	display:inline;
+	font-size: 1.5em;
+	border-bottom:#f57365 2px solid; 
+}
+.cuisines button{
+	margin-top: 0 !important; 
+	width: 20%;
+	min-height: 200px;
+	outline: none;
+	border: 0;
+	float: left;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	cursor: pointer;
+}
+@media only screen and (max-width:529px)  {
+	.cuisines button{
+		width: 50% !important;
+
+	}
+}
+@media only screen and (min-width:530px) and (max-width: 949px)  {
+	.cuisines button{
+		width: 50% !important;
+
+	}
+}
+@media only screen and (min-width:950px) and (max-width: 1128px)  {
+	.cuisines button{
+		width: 25% !important;
+
+	}
+}
+.cuisines{
+	padding: 0 !important;
+
+}
+.cuisines h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+}
+#italian{
+	background-image: url(img/cuisines/1.jpg);
+}
+#indian{
+	background-image: url(img/cuisines/2.jpg);
+}
+#french{
+	background-image: url(img/cuisines/3.jpg);
+}
+#steakhouse{
+	background-image: url(img/cuisines/4.jpg);
+}
+#seafood{
+	background-image: url(img/cuisines/5.jpg);
+}
+#sushi{
+	background-image: url(img/cuisines/6.jpg);
+}
+#mexican{
+	background-image: url(img/cuisines/7.jpg);
+}
+#chinese{
+	background-image: url(img/cuisines/8.jpg);
+}
+#pizza{
+	background-image: url(img/cuisines/9.jpg);
+}
+#american{
+	background-image: url(img/cuisines/10.jpg);
+}
+.cuisines p{
+	font-style: italic;
+	color: #ffffff;
+	opacity: 0.8;
+}
+.num{
+	width: 20%;
+	float:left;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+}
+@media only screen and (max-width:529px)  {
+	.num {
+		width: 50% !important;
+
+	}
+}
+@media only screen and (min-width:530px) and (max-width: 949px)  {
+	.num {
+		width: 50% !important;
+
+	}
+}
+@media only screen and (min-width:950px) and (max-width: 1128px)  {
+	.num {
+		width: 25% !important;
+
+	}
+}
+.bottom_nums{
+	background-color:#ffffff !important; 
+	width: 100%;
+	min-height: 100px;
+}
+.num h4{
+	font-weight: bold;
+}
+.copyright{
+	color: #c9c9c9;
+}
+footer{
+	border-top: #e2e2e2 2px solid;
+	width: 100%;
+	background-color: #f7f7f7;
+	padding: 1.5em;
+}
+.design_by{
+	color:#8b8b8b;
+	text-transform: uppercase;
+}
+.design_by p span{
+	color:#000000;
+	font-weight: bold;
+}
